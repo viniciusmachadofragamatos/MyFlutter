@@ -9,8 +9,8 @@ class LoginPage extends StatefulWidget {
 }
 
 class _LoginPageState extends State<LoginPage> {
-  TextEditingController emailController = TextEditingController(text: "");
-  TextEditingController senhaController = TextEditingController(text: ""); 
+  TextEditingController emailController = TextEditingController(text: "email@email.com");
+  TextEditingController senhaController = TextEditingController(text: "123"); 
   bool isObscureText = true;
   @override
   Widget build(BuildContext context) {
@@ -36,7 +36,7 @@ class _LoginPageState extends State<LoginPage> {
                     Expanded(child: Container())
                   ],
                 ),
-                SizedBox(height: 20),
+                const SizedBox(height: 20),
                 const Text(
                   "Já tem cadastro?",
                   style: TextStyle(fontSize: 30, fontWeight: FontWeight.w800),
@@ -44,7 +44,7 @@ class _LoginPageState extends State<LoginPage> {
                 SizedBox(height: 10),
                 const Text("Faça seu login e make the change_",
                     style: TextStyle(fontSize: 16)),
-                SizedBox(height: 40),
+                const SizedBox(height: 40),
                 Container(
                   width: double.infinity,
                   margin: EdgeInsets.symmetric(horizontal: 30),
@@ -57,8 +57,8 @@ class _LoginPageState extends State<LoginPage> {
                     },
                     decoration: InputDecoration(
                       contentPadding: EdgeInsets.only(top: 0),
-                      enabledBorder:  UnderlineInputBorder(
-                        borderSide: BorderSide(color: Colors.cyan)
+                      enabledBorder: const UnderlineInputBorder(
+                        borderSide: const BorderSide(color: Colors.cyan)
                       ),
                       focusedBorder: UnderlineInputBorder(
                         borderSide: BorderSide(
@@ -71,10 +71,10 @@ class _LoginPageState extends State<LoginPage> {
                     ),
                   )
                   ),
-                SizedBox(height: 20),
+                const SizedBox(height: 20),
                 Container(
                   width: double.infinity,
-                  margin: EdgeInsets.symmetric(horizontal: 30),
+                  margin: const EdgeInsets.symmetric(horizontal: 30),
                   height: 30,
                   alignment: Alignment.center,
                   child: TextField(
@@ -113,10 +113,10 @@ class _LoginPageState extends State<LoginPage> {
                   )
                 
                 ),
-                SizedBox(height: 30),
+                const SizedBox(height: 30),
                 Container(
                   width: double.infinity,
-                  margin: EdgeInsets.symmetric(horizontal: 30, vertical: 10),
+                  margin: const EdgeInsets.symmetric(horizontal: 30, vertical: 10),
                   alignment: Alignment.center,
                   child: SizedBox(
                       width: double.infinity,
@@ -141,7 +141,7 @@ class _LoginPageState extends State<LoginPage> {
                               ),
                               backgroundColor: WidgetStatePropertyAll(
                                   const Color.fromARGB(255, 24, 165, 207))),
-                          child: Text(
+                          child: const Text(
                             "ENTRAR",
                             style: TextStyle(
                                 color: Colors.white,
@@ -149,13 +149,13 @@ class _LoginPageState extends State<LoginPage> {
                                 fontWeight: FontWeight.w500),
                           ))),
                 ),
-                Expanded(child: Container()),
+                 Expanded(child: Container()),
                 Container(
                   width: double.infinity,
-                  margin: EdgeInsets.symmetric(horizontal: 30, vertical: 10),
+                  margin: const EdgeInsets.symmetric(horizontal: 30, vertical: 10),
                   height: 30,
                   alignment: Alignment.center,
-                  child: Text(
+                   child: const Text(
                     "Esqueci minha senha",
                     style: TextStyle(
                         color: const Color.fromARGB(255, 24, 165, 207),
@@ -164,17 +164,17 @@ class _LoginPageState extends State<LoginPage> {
                 ),
                 Container(
                   width: double.infinity,
-                  margin: EdgeInsets.symmetric(horizontal: 30, vertical: 10),
+                  margin: const EdgeInsets.symmetric(horizontal: 30, vertical: 10),
                   height: 30,
                   alignment: Alignment.center,
-                  child: Text(
+                  child:const Text(
                     "Criar Conta",
                     style: TextStyle(
                         color: const Color.fromARGB(255, 24, 165, 207),
                         fontWeight: FontWeight.w400),
                   ),
                 ),
-                SizedBox(height: 60),
+                const SizedBox(height: 60),
               ],
             ),
           ),
