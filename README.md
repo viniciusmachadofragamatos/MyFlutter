@@ -2,6 +2,7 @@
 projeto flutter para treinamento e aprendizado pelo curso DIO
 
 # Login page(Por enquanto)...
-<img width="576" height="1280" alt="image" src="https://github.com/user-attachments/assets/25a572cd-256e-4811-a488-f3a96dc5ad75" />
+![WhatsApp Image 2025-11-21 at 00 24 33](https://github.com/user-attachments/assets/ae97fb61-def6-478c-88b6-803f24b637ca)
+
 
 # Home Page (Em breve)...
